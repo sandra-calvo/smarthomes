@@ -1,5 +1,6 @@
-# IBM Cloud Workshop :cloud:
+# IBM Cloud :cloud:
 ### SMART HOMES
+## Mimmitkoodaa workshops
 
 In this guide:
   - [Introduction](#introduction)
