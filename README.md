@@ -4,11 +4,11 @@
 In this guide:
   - [Introduction](#introduction)
   - [IoT-Sensors](#iot-sensors): Thingsee IoT sensors
-  - [PHASE 1](#phase-1): Create your application
-  - [PHASE 2](#phase-2): 
-  - [PHASE 1](#phase-1):
-  - [PHASE 1](#phase-1):
-  - [PHASE 1](#phase-1):
+  - [PHASE 1](#phase-1): Create a web application
+  - [PHASE 2](#phase-2): Visualize your data
+  - [PHASE 3](#phase-3): Add AI to your application - Watson Assistant -   
+  - [PHASE 4](#phase-4): Connect with external APIs - Weather - 
+  - [PHASE 5](#phase-5): Include rules and actions based on sensor data
   
   
   #### Prerequisites
@@ -41,7 +41,7 @@ Thingsee **PRESENCE** is a wireless IoT sensor for measuring people presence thr
 <img src="/images/Sensors.png" width="90%" height="90%">
 
 # PHASE 1
-## Create your application
+## Create a web application
 
 ### Step 1. Create a Node-RED application
 
@@ -154,9 +154,16 @@ http://yourAppName.eu-de.mybluemix.net/ui - Germany
 http://yourAppName.au-syd.mybluemix.net/ui - Sydney
 
 **Fantastic! Your web app is ready.** 
-Now you can interact with the machine learning model you created from the webapp. :+1:
+Now you can interact start creating your personalized dashboard. :+1:
 
-### Step 14. Create Watson Assistant service on IBM Cloud
+# PHASE 2
+## Visualize your data
+
+
+# PHASE 3
+## Add AI to your application - Watson Assistant - 
+
+### Step X. Create Watson Assistant service on IBM Cloud
 With IBM Watson™ Assistant service you can build a solution that understands natural-language input and uses machine learning to respond to customers in a way that simulates a conversation between humans.
 
 Go to your IBM Cloud account and open the catalog. Look for Watson Assistant service and click on it.
@@ -180,7 +187,7 @@ Let's move to the Workspaces tab.
 
 <img src="/images/WA5.png" width="50%" height="50%">
  
-### Step 15. Import a workspace
+### Step X. Import a workspace
 The natural-language processing happens inside a workspace, which is a container for all of the artifacts that define the conversation flow for an application.
 
 You can create a workspace and start from scratch or import an existing conversation. 
@@ -194,7 +201,7 @@ When you import a workspace, you can choose to import only the intents and entit
 
 <img src="/images/WA7.png" width="50%" height="50%">
 
-### Step 16. Test your dialog
+### Step X. Test your dialog
 As you make changes to your dialog, you can test it at any time to see how it responds to input.
 1.	From the Dialog tab, click the conversation buble icon.
 2.	In the chat panel, type some text and then press Enter.
@@ -204,12 +211,11 @@ The chat window indicates what intents and entities were recognized in the input
 Feel free to create new intents for your bot.
 ![](/images/WA8.png?raw=true)
 
-### Step 17. Get Watson Assistant credentials 
+### Step X. Get Watson Assistant credentials 
 Since we will need your Watson Assistant credentials and your workspace ID in the next step, this is a good moment to save them.Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. Copy the credentials and save them for later.
 ![](/images/WA9.png?raw=true)
 
-
-### Step 18. Build a Node-RED flow to connect with Watson Assistant
+### Step X. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
 Copy the content of **UI2.json** and import the flow to Node-RED, same way you did in Step 15.
@@ -231,7 +237,7 @@ Add your username, passworkd and workspace id and click Done.
 
 Click on the _Deploy_ button to save the changes in your application.
 
-### Step 19. Check the final result! 
+### Step X. Check the final result! 
 Go back to the UI and talk with your bot! 
 You can ask to connect/start the model and the prediction result will be shown in the gauge graph. 
 
@@ -241,7 +247,16 @@ http://yourAppName.eu-gb.mybluemix.net/ui - UK
 ![](/images/WA15.png?raw=true)
 
 At this moment the bot is very basic. It can tell you about IBM Cloud and Watson Studio and can connect with the ML model created in Lab 1. 
-To connec with the model write: "Start the model".
+To connect with the model write: "Start the model".
+
+
+# PHASE 4
+## Connect with external APIs - Weather -
+
+# PHASE 5
+## Include rules and actions based on sensor data
+
+
 
 **Congrats!** You finished the lab. :clap:
-Here, take a :lollipop: and enjoy your awesomeness!
+Here, take a :lollipop:. You deserve it!! 
