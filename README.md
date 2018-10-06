@@ -1,4 +1,4 @@
-# IBM Cloud :cloud: and SMART HOMES :house_with_garden:
+# IBM Cloud :cloud: and Smart Homes:house_with_garden:
 ## Mimmitkoodaa workshops
 
 In this guide:
