@@ -3,7 +3,7 @@
 
 In this guide:
   - [Introduction](#introduction)
-  - [IoT-Sensors](#iot-sensors): Thingsee IoT sensors
+  - [IoT devices](#iot-devices): Thingsee IoT sensors
   - [PHASE 1](#phase-1): Create a web application
   - [PHASE 2](#phase-2): Visualize your data
   - [PHASE 3](#phase-3): Add AI to your application - Watson Assistant -   
@@ -23,7 +23,7 @@ This guide shows how to create a Smart Home application using Thingsee sensors a
 
 <img src="/images/IBMCloud.png" width="90%" height="90%">
 
-## IoT-Sensors
+## IoT devices
 
 In this lab we are going to use **Thingsee sensors** created by Haltian (https://thingsee.com/). Thingsee IoT devices are wireless and easy to plug & play. The sensors can be pre-configured to send data to any cloud.
 
