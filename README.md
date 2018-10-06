@@ -3,7 +3,7 @@
 
 In this guide:
   - [Introduction](#introduction)
-  - [Sensors](#sensors): Sensors setup
+  - [IoT-Sensors](#iot-sensors): Thingsee IoT sensors
   - [PHASE 1](#phase-1): Create your application
   - [PHASE 2](#phase-2): 
   - [PHASE 1](#phase-1):
@@ -20,6 +20,23 @@ In this guide:
 **IBM Cloud** is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS). 
 
 <img src="/images/IBMCloud.png" width="90%" height="90%">
+
+## IoT-Sensors
+
+In this lab we are going to use **Thingsee sensors** created by Haltian (https://thingsee.com/). Thingsee IoT devices are wireless and easy to plug & play. The sensors can be configured to send data to the cloud.
+
+<img src="/images/Sensors1.png" width="80%" height="80%">
+
+There is three types of sensors distance, environment and presence, and the gateway collects the data to send it to the cloud. 
+
+Thingsee **DISTANCE** is a wireless IoT sensor for measuring container fill rates, asset presence on location and more.
+Thingsee distance measures the sensor's distance to a surface in real time. You can use the sensor for various facility management applications, asset tracking, parking facility solutions and more.
+
+Thingsee **PRESENCE** is a wireless IoT sensor for measuring people presence through the facility. Thingsee Presence IoT sensor measures the presence of people in real time. You can use the sensor for facility management and security applications, for example.
+
+Thingsee **POD 2** measures temperature, humidity, air pressure, light level, movement and impacts. You can also detect magnets and even get device location using network RSSI location.
+
+<img src="/images/Sensors.png" width="90%" height="90%">
 
 # PHASE 1
 ## Create your application
