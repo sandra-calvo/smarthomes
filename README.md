@@ -251,7 +251,27 @@ To connect with the model write: "Start the model".
 
 
 # PHASE 4
-## Connect with external APIs - Weather -
+## Connect with external APIs - Weather Insights -
+
+You can connect your application with any available API. In this case we are going to connect Watson Assistant to the Weather Company data. This way our bot will be able to tell us the weather anywhere in the world. 
+
+**Weather Company Data** service lets you integrate weather data from The Weather Company into your application. You can retrieve weather data for an area specified by a geolocation. The data allows you to create applications that solve real business problems where weather has a significant impact on the outcome.
+
+Go to your IBM Cloud account and open the catalog. Look for Weather Company service and click on it.
+
+<img src="/images/Weather1.png" width="50%" height="50%">
+
+Choose the region and space where you want the service to be created. Your organization will be filled by default.
+There is a free plan that allows you to call the service 10.000 times per account. 
+You don't need to change the name if you don't want to, just click on 'Create'. 
+![](/images/Weather2.png?raw=true)
+
+Once the service is created click on 'Launch tool' to access it. 
+
+<img src="/images/Weather3.png" width="60%" height="60%">
+
+GET CREDENTIALS
+
 
 # PHASE 5
 ## Include rules and actions based on sensor data
