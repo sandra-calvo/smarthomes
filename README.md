@@ -1,6 +1,6 @@
 # IBM Cloud :cloud:
-### SMART HOMES
-## Mimmitkoodaa workshops
+## SMART HOMES :house_with_garden:
+### Mimmitkoodaa workshops
 
 In this guide:
   - [Introduction](#introduction)
@@ -17,6 +17,8 @@ In this guide:
   - Create a free account www.bluemix.net
   
   ## Introduction 
+  
+This guide shows how to create a Smart Home application using Thingsee sensors and IBM Cloud. 
 
 **IBM Cloud** is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS). 
 
@@ -24,7 +26,7 @@ In this guide:
 
 ## IoT-Sensors
 
-In this lab we are going to use **Thingsee sensors** created by Haltian (https://thingsee.com/). Thingsee IoT devices are wireless and easy to plug & play. The sensors can be configured to send data to the cloud.
+In this lab we are going to use **Thingsee sensors** created by Haltian (https://thingsee.com/). Thingsee IoT devices are wireless and easy to plug & play. The sensors can be pre-configured to send data to any cloud.
 
 <img src="/images/Sensors1.png" width="80%" height="80%">
 
@@ -88,7 +90,6 @@ Now click Go to your Node-RED flow editor to open the flow editor.
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
       - node-red-dashboard
-      - node-red-contrib-watson-machine-learning
 
 In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
 
@@ -108,12 +109,12 @@ This will prompt a window to confirm the installation. Click on install and wait
 
 After few seconds you will see the new nodes in your Node-RED palette.
 
-**Remember** to repeat this process for the Machine Learning nodes: node-red-contrib-watson-machine-learning.
+**Remember** to repeat this process for the other packages.
 
 ### Step 12: Import the Node-RED application flow
 In this section we will build a simple flow to represent the user interface that will interact with our ML model created in Watson Studio. 
 
-Copy the content of the **ML_form_UI.json** file. (Located in the Box folder https://ibm.box.com/v/workshop260918)
+Copy the content of the **UI1.json** file. **-ADD PATH-**
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
 
 <img src="/images/App27.png" width="50%" height="50%">
@@ -126,16 +127,9 @@ This flow reads input data from the user and calls the ML model to give a predic
 
 <img src="/images/App29.png" width="100%" height="100%">
  
-You will need to do some editing on the Watson Machine Learning Node. 
-Go to IBM Cloud, (www.bluemix.net) click on your dashboard and open the Watson Machine Learning service. 
+You will need to do some editing. 
 
-<img src="/images/App33.png" width="100%" height="100%">
-
-Click on _Service Credentials_ and _View credentials_. Copy the credentials. 
-
-<img src="/images/App34.png" width="100%" height="100%">
-
-Back in Node-REd, double click on the purple node, Watson machine learning node, and click on the pencil to add your credentials. 
+Back in Node-Red, double click on the purple node, Watson machine learning node, and click on the pencil to add your credentials. 
 
 <img src="/images/App32.png" width="50%" height="50%">
 
@@ -191,7 +185,7 @@ Let's move to the Workspaces tab.
 The natural-language processing happens inside a workspace, which is a container for all of the artifacts that define the conversation flow for an application.
 
 You can create a workspace and start from scratch or import an existing conversation. 
-Let's start by importing a conversation. Download the **bot_conversation.json** file located in the Box folder. 
+Let's start by importing a conversation. Download the **bot_conversation.json** file located **PATH**. 
 
 Click on the import icon shown in the image below. 
 
@@ -219,7 +213,7 @@ Since we will need your Watson Assistant credentials and your workspace ID in th
 ### Step 18. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
-Copy the content of **ML_bot_UI.json** and import the flow to Node-RED, same way you did in Step 15.
+Copy the content of **UI2.json** and import the flow to Node-RED, same way you did in Step 15.
 The file is located in the Box folder. 
 
 This is the flow we are importing:
