@@ -34,9 +34,9 @@ There is three types of sensors distance, environment and presence, and the gate
 Thingsee **DISTANCE** is a wireless IoT sensor for measuring container fill rates, asset presence on location and more.
 Thingsee distance measures the sensor's distance to a surface in real time. You can use the sensor for various facility management applications, asset tracking, parking facility solutions and more.
 
-Thingsee **PRESENCE** is a wireless IoT sensor for measuring people presence through the facility. Thingsee Presence IoT sensor measures the presence of people in real time. You can use the sensor for facility management and security applications, for example.
-
 Thingsee **POD 2** measures temperature, humidity, air pressure, light level, movement and impacts. You can also detect magnets and even get device location using network RSSI location.
+
+Thingsee **PRESENCE** is a wireless IoT sensor for measuring people presence through the facility. Thingsee Presence IoT sensor measures the presence of people in real time. You can use the sensor for facility management and security applications, for example.
 
 <img src="/images/Sensors.png" width="90%" height="90%">
 
