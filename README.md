@@ -91,7 +91,7 @@ When using Node-RED we build our apps using this graphical editor interface to w
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
       - node-red-dashboard
-      - OTHER PACKAGES
+      - node-red-node-base64
 
 In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
 
@@ -174,7 +174,7 @@ http://yourAppName.eu-de.mybluemix.net/ui - Germany
 http://yourAppName.au-syd.mybluemix.net/ui - Sydney
 
 **Fantastic! Your web app is ready.** 
-Now you can observe with your Smart Home dashboard. :+1:
+Now you can observe your Smart Home dashboard. :+1:
 
 
 # PHASE 3
@@ -210,7 +210,7 @@ Let's move to the Workspaces tab.
 The natural-language processing happens inside a workspace, which is a container for all of the artifacts that define the conversation flow for an application.
 
 You can create a workspace and start from scratch or import an existing conversation. 
-Let's start by importing a conversation. Download the **bot_conversation.json** file located **PATH**. 
+Let's start by importing a conversation. Download the **assistant_conversation.json** file located [Assistant Conversation](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/assistant_conversation.json). 
 
 Click on the import icon shown in the image below. 
 
@@ -230,22 +230,30 @@ Feel free to create new intents for your bot.
 ![](/images/WA8.png?raw=true)
 
 ### Step 8. Get Watson Assistant credentials 
-Since we will need your Watson Assistant credentials and your workspace ID in the next step, this is a good moment to save them. Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. Copy the credentials and save them for later.
+Since we will need your Watson Assistant credentials and your workspace ID in the next step, this is a good moment to save them. Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. 
+
+Copy the credentials and save them for later.
 ![](/images/WA9.png?raw=true)
 
 ### Step 9. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
-Copy the content of **assistant_UI.json** and import the flow to Node-RED, same way you did in Step 15.
-The file is located in the Box folder. 
+Copy the content of the **assistant_UI.json** file. Open the file URL. [Assistant UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/assistant_UI.json) 
 
+Use the keyboard shortcuts to select all content and copy it. 
+    
+  OSx
+    <kbd>Cmd</kbd>+<kbd>A</kbd> -->
+    <kbd>Cmd</kbd>+<kbd>C</kbd>
+
+  Windows
+    <kbd>Ctrl</kbd>+<kbd>A</kbd> -->
+    <kbd>Ctrl</kbd>+<kbd>C</kbd>
+
+Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. Import -> Clipboard. Paste the content.
 This is the flow we are importing:
 
-<img src="/images/WA10.png" width="100%" height="100%">
-
-**EDIT THE NODE**
-
-<img src="/images/WA11.png" width="100%" height="100%">
+<img src="/images/flow2.png" width="100%" height="100%">
 
 Double click on the conversation node to edit the node with your own credentials saved in the previous step. 
 Add your username, passworkd and workspace id and click Done.
@@ -261,7 +269,7 @@ You can ask the bot about IoT and even ask what is the temperature in the room. 
 Remember, to go back to your web app (in UK region)
 http://yourAppName.eu-gb.mybluemix.net/ui - UK
 
-![](/images/WA15.png?raw=true)
+<img src="/images/webApp2.png" width="60%" height="60%">
 
 
 # PHASE 4
