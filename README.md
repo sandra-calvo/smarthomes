@@ -122,14 +122,14 @@ In this section we will build a simple flow to connect with our sensor data and 
 Copy the content of the **visualization_UI.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualization_UI.json) 
 
 Use the keyboard shortcuts to select all content and copy it. 
+    
+  OSx
+    <kbd>Cmd</kbd>+<kbd>A</kbd> -->
+    <kbd>Cmd</kbd>+<kbd>C</kbd>
 
-OSx
-<kbd>Cmd</kbd>+<kbd>A</kbd>,
-<kbd>Cmd</kbd>+<kbd>C</kbd>
-
-Windows
-<kbd>Ctrl</kbd>+<kbd>A</kbd>,
-<kbd>Ctrl</kbd>+<kbd>C</kbd>
+  Windows
+    <kbd>Ctrl</kbd>+<kbd>A</kbd> -->
+    <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
 
@@ -145,7 +145,6 @@ You will need to do some editing. The sensors are pre-configured to send data to
 
 API KEY | a-jwql3u-qmhoi8sdzy
 API TOKEN | OSxT5QVJYxItsV*K4y
-
 
 Double click on the blue IBM Iot node and click on the pen iconn. 
 
