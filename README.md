@@ -90,6 +90,7 @@ When using Node-RED we build our apps using this graphical editor interface to w
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
       - node-red-dashboard
+      - OTHER PACKAGES
 
 In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
 
@@ -117,7 +118,8 @@ After few seconds you will see the new nodes in your Node-RED palette.
 ### Step 3: Import the Node-RED application flow
 In this section we will build a simple flow to connect with our sensor data and create a web visualization. 
 
-Copy the content of the **UI_Dashboard.json** file. **-ADD PATH-**
+Copy the content of the **visualization_UI.json** file. https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualization_UI.json
+
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
 
 <img src="/images/App27.png" width="50%" height="50%">
@@ -130,7 +132,9 @@ This flow reads sensor data from the Watson IoT Platform and creates a visualiza
 
 <img src="/images/App29.png" width="100%" height="100%">
  
-You will need to do some editing. **EDITING ON THE NODES**
+You will need to do some editing. The sensors are pre-configured to send data to Watson IoT platform. At this moment all sensors send data to a service created by me (Sandra). Here the credentials to read the data coming from the sensors:
+
+Click on the blue IBM Iot node and enter the credentials above to start reading the data. 
 
 <img src="/images/App32.png" width="50%" height="50%">
 
