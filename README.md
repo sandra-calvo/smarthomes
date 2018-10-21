@@ -141,7 +141,7 @@ Paste the text you copied from the file.
 
 This flow reads sensor data from the Watson IoT Platform and creates a visualization in your application's user interface. 
  
-You will need to do some editing. Double click on the blue IBM Iot node and click on the pen iconn. 
+You will need to do some editing. Double click on the blue IBM Iot node and click on the pen icon. 
 
 <img src="/images/iot1.png" width="50%" height="50%">
 
@@ -154,14 +154,14 @@ Enter the credentials above to start reading the data from the IoT platform. The
 
 <img src="/images/iot2.png" width="50%" height="50%">
 
-Deploy your application changes from the **Deploy** button on the top right side of the screeen. 
+Deploy your application changes from the **Deploy** button on the top right side of the screen. 
 
 Note that it is also possible to change the looks of your user interface in the dashboard tab. 
 
 ### Step 4. Check your webapp UI! 
 The dashboard nodes added an UI to our Node-RED application. 
 
-<img src="/images/App30.png" width="80%" height="80%">
+<img src="/images/webApp1.png" width="80%" height="80%">
 
 To access the UI go to:
 http://yourAppName.eu-gb.mybluemix.net/ui - UK
@@ -174,11 +174,11 @@ http://yourAppName.eu-de.mybluemix.net/ui - Germany
 http://yourAppName.au-syd.mybluemix.net/ui - Sydney
 
 **Fantastic! Your web app is ready.** 
-Now you can interact with your Smart Home dashboard. :+1:
+Now you can observe with your Smart Home dashboard. :+1:
 
 
 # PHASE 3
-## Add AI to your application 
+## Add AI powered chatbot to your application using Watson Assistant
 
 In this phase we are going to add a chatbot to our application, powered by Watson Assistant. Through the chatbot you will be able to get information about the sensor data in your "Smart Home" environment. 
 
@@ -236,7 +236,7 @@ Since we will need your Watson Assistant credentials and your workspace ID in th
 ### Step 9. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
-Copy the content of **UI_Bot.json** and import the flow to Node-RED, same way you did in Step 15.
+Copy the content of **assistant_UI.json** and import the flow to Node-RED, same way you did in Step 15.
 The file is located in the Box folder. 
 
 This is the flow we are importing:
