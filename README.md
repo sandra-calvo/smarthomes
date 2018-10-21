@@ -1,35 +1,36 @@
 # IBM Cloud :cloud: and Smart Homes:house_with_garden:
-## Mimmitkoodaa workshop guide
+## Mimmitkoodaa workshop guide 
 
 In this guide:
   - [Introduction](#introduction)
   - [IoT devices](#iot-devices): Thingsee IoT sensors
   - [PHASE 1](#phase-1): Create a web application
   - [PHASE 2](#phase-2): Visualize your data
-  - [PHASE 3](#phase-3): Add AI to your application - Watson Assistant -   
-  - [PHASE 4](#phase-4): Connect with external APIs - Weather - 
+  - [PHASE 3](#phase-3): Add AI powered chatbot to your application using Watson Assistant 
+  - [PHASE 4](#phase-4): Connect with external APIs using Weather Insights
   - [PHASE 5](#phase-5): Include rules and actions based on sensor data
   
   
   #### Prerequisites
 - IBM Cloud account
   - Create a free account www.bluemix.net
-  
-  ## Introduction 
-  
-This guide shows how to create a Smart Home application using Thingsee sensors and IBM Cloud. 
 
-**IBM Cloud** is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS). 
+  ## Introduction 
+
+This lab was created for Smart Homes Mimmitkoodaa workshop fall 2018. The idea is to show how to create a smart home application that uses artificial intelligence and connects with external APIs. 
+Video tutorial will be available December 2018.
+
+**IBM Cloud** is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS). A full-stack cloud platform with over 170 products and services covering data, serverless, containers, AI, IoT and blockchain. https://www.ibm.com/cloud/
 
 <img src="/images/IBMCloud.png" width="90%" height="90%">
 
 ## IoT devices
 
-In this lab we are going to use **Thingsee sensors** created by Haltian (https://thingsee.com/). Thingsee IoT devices are wireless and easy to plug & play. The sensors can be pre-configured to send data to any cloud.
+In this lab we are going to use **Thingsee sensors** created by Haltian (https://thingsee.com/). Thingsee IoT devices are wireless and easy to plug & play. The sensors can be pre-configured to send data to any cloud. For the purpose of this lab sensors are pre-configured to send data to Watson IoT Platform, part of IBM Cloud. 
 
 <img src="/images/Sensors1.png" width="80%" height="80%">
 
-There is three types of sensors distance, environment and presence. The gateway collects the data to send it to the cloud. 
+There are three types of sensors distance, environment and presence. The gateway collects the data to send it to the cloud. 
 
 Thingsee **DISTANCE** is a wireless IoT sensor for measuring container fill rates, asset presence on location and more.
 Thingsee distance measures the sensor's distance to a surface in real time. You can use the sensor for various facility management applications, asset tracking, parking facility solutions and more.
@@ -41,21 +42,21 @@ Thingsee **PRESENCE** is a wireless IoT sensor for measuring people presence thr
 <img src="/images/Sensors.png" width="90%" height="90%">
 
 # PHASE 1
-## Create a web application
+## Create an application
 
 ### Step 1. Create a Node-RED application
 
 **Node-RED** is a visual tool for wiring the internet of things - connecting hardware devices, APIs and online services in a new and interesting way. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single-click.
 
 In a browser navigate to https://bluemix.net
-Select 'LOG IN' then enter your log in information and press 'SIGN IN'.  You should see your dashboard. 
-Select the 'CATALOG' view.
+Select '_LOG IN_' then enter your log in information and press 'SIGN IN'.  You should see your dashboard. 
+Select the '_CATALOG_' view.
 ![](/images/App1.png?raw=true)
-Locate the Node-RED started service and click on it. 
+Locate the Node-RED starter service, under Starter Kit, and click on it. 
 
 <img src="/images/App2.png" width="30%" height="30%">
 
-Enter a name for your application, as shown below (host will automatically be completed). The host name must be unique on IBM Cloud, so please choose a name with your company name or initials to try to make a unique name.  Press 'CREATE'. 
+Enter a name for your application, for example: *mysmarthome* (host will automatically be completed). The host name must be unique on IBM Cloud, so please if you use the example name add your initials or a number. Be creative and try to make a unique name then click '_CREATE_'. 
 
 <img src="/images/App3.png" width="100%" height="100%">
  
@@ -66,14 +67,14 @@ The application will be ready in a couple of minutes. If you want to check the p
 
 *Note: If you are using Lite accounts your application will be in an awake mode. That means that if after 10 days your application has not been used IBM will stop it.*
 
-When fully staged, click on the _Visit app link_, next to the green or half green circle, this launches the Node-RED main page.
+When fully staged, click on the _Visit app URL_, next to the green or half green circle, this launches the Node-RED main page.
 
 <img src="/images/App4.png" width="90%" height="90%">
   
-Configure your Node-RED editor. In this section, you will set up a username and password to protect your flow. 
+Configure your Node-RED editor. In this section, you will set up a username and password to protect your flow. We are working in the public cloud that means that anyone can access your application through a web browser, set a username and password to protect your code.
 <img src="/images/App5.png" width="40%" height="40%">
 
-Write an username and a password of your choice and click 'Next'. Remember that it does not have to be related to your IBM Cloud ID. 
+Write an username and a password of your choice and click 'Next'. Remember that it does not have to be related to your IBM Cloud ID. Let the browser remember the password if you are using your own laptop, it will come in handy later. 
 
 <img src="/images/App6.png" width="40%" height="40%">
  
