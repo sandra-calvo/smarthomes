@@ -72,6 +72,7 @@ When fully staged, click on the _Visit app URL_, next to the green or half green
 <img src="/images/App4.png" width="90%" height="90%">
   
 Configure your Node-RED editor. In this section, you will set up a username and password to protect your flow. We are working in the public cloud that means that anyone can access your application through a web browser, set a username and password to protect your code.
+
 <img src="/images/App5.png" width="40%" height="40%">
 
 Write an username and a password of your choice and click 'Next'. Remember that it does not have to be related to your IBM Cloud ID. Let the browser remember the password if you are using your own laptop, it will come in handy later. 
@@ -112,13 +113,21 @@ After few seconds you will see the new nodes in your Node-RED palette.
 
 **Remember** to repeat this process to install the other packages.
 
+<kbd>Alt</kbd>+<kbd>F2</kbd>
+
 # PHASE 2
 ## Visualize your data
 
 ### Step 3: Import the Node-RED application flow
 In this section we will build a simple flow to connect with our sensor data and create a web visualization. 
 
-Copy the content of the **visualization_UI.json** file. https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualization_UI.json
+Copy the content of the **visualization_UI.json** file. Open the file URL and use Ctrl+A & Ctrl+C to select and copy all the content. cmd+A & cmd+C in OSx. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualization_UI.json)
+
+<kbd>Cmd</kbd>+<kbd>A</kbd>
+<kbd>Cmd</kbd>+<kbd>C</kbd>
+
+<kbd>Ctrl</kbd>+<kbd>A</kbd>
+<kbd>Ctrl</kbd>+<kbd>C</kbd>
 
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
 
