@@ -61,7 +61,7 @@ Enter a name for your application, for example: *mysmarthome* (host will automat
 <img src="/images/App3.png" width="100%" height="100%">
  
 Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
-The application will be ready in a couple of minutes. If you want to check the progeress click on the _LOGS_ icon on the left side menu. 
+The application will be ready in a couple of minutes. If you want to check the progeress click on the  _LOGS_  icon on the left side menu. Go back to _Overview_ tab to see your app dashboard.
 
 <img src="/images/App3b.png" width="20%" height="20%">
 
