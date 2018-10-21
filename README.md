@@ -129,18 +129,25 @@ Paste the text you copied from the file.
 <img src="/images/App28.png" width="50%" height="50%">
 
 This flow reads sensor data from the Watson IoT Platform and creates a visualization in your application's user interface. 
-
-<img src="/images/App29.png" width="100%" height="100%">
  
 You will need to do some editing. The sensors are pre-configured to send data to Watson IoT platform. At this moment all sensors send data to a service created by me (Sandra). Here the credentials to read the data coming from the sensors:
 
-Click on the blue IBM Iot node and enter the credentials above to start reading the data. 
+API KEY | a-jwql3u-qmhoi8sdzy
+API TOKEN | OSxT5QVJYxItsV*K4y
 
-<img src="/images/App32.png" width="50%" height="50%">
+
+Double click on the blue IBM Iot node and click on the pen iconn. 
+
+<img src="/images/iot1.png" width="50%" height="50%">
+
+Enter the credentials above to start reading the data from the IoT platform. Then click on _Update_.
+
+<img src="/images/iot2.png" width="50%" height="50%">
+
+Deploy your application changes from the **Deploy** button on the top right side of the screeen. 
 
 Note that it is also possible to change the looks of your user interface in the dashboard tab. 
 
-Deploy your application changes from the **Deploy** button on the top right side of the screeen. 
 
 ### Step 4. Check your webapp UI! 
 The dashboard nodes added an UI to our Node-RED application. 
