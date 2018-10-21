@@ -113,20 +113,22 @@ After few seconds you will see the new nodes in your Node-RED palette.
 
 **Remember** to repeat this process to install the other packages.
 
-<kbd>Alt</kbd>+<kbd>F2</kbd>
-
 # PHASE 2
 ## Visualize your data
 
 ### Step 3: Import the Node-RED application flow
 In this section we will build a simple flow to connect with our sensor data and create a web visualization. 
 
-Copy the content of the **visualization_UI.json** file. Open the file URL and use Ctrl+A & Ctrl+C to select and copy all the content. cmd+A & cmd+C in OSx. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualization_UI.json)
+Copy the content of the **visualization_UI.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualization_UI.json) 
 
-<kbd>Cmd</kbd>+<kbd>A</kbd>
+Use the keyboard shortcuts to select all content and copy it. 
+
+OSx
+<kbd>Cmd</kbd>+<kbd>A</kbd>,
 <kbd>Cmd</kbd>+<kbd>C</kbd>
 
-<kbd>Ctrl</kbd>+<kbd>A</kbd>
+Windows
+<kbd>Ctrl</kbd>+<kbd>A</kbd>,
 <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
