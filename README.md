@@ -105,7 +105,7 @@ Search for the dashboard nodes by writing 'dashboard'. This will return multiple
 
 <img src="/images/App25.png" width="30%" height="30%">
  
-This will prompt a window to confirm the installation. Click on install and wait few minutes, the application may require a restart. Click "Done" to close the left side menu. 
+This will prompt a window to confirm the installation. Click on install and wait few minutes. Click "Done" to close the left side menu. 
 
 <img src="/images/App26.png" width="50%" height="50%">
 
