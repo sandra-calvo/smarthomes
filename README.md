@@ -140,7 +140,7 @@ Paste the text you copied from the file.
 <img src="/images/App28.png" width="50%" height="50%">
 
 This flow reads sensor data from the Watson IoT Platform and creates a visualization in your application's user interface. 
-It should look like this:
+The code will create a new tab called Environment with a flow like this:
 
 <img src="/images/flow23.png" width="80%" height="80%">
 
