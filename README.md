@@ -155,7 +155,7 @@ The sensors are pre-configured to send data to Watson IoT platform. At this mome
     API KEY: a-jwql3u-qmhoi8sdzy
     API TOKEN: OSxT5QVJYxItsV*K4y
 
-Enter the credentials above to start reading the data from the IoT platform. Then click on _Update_.
+Enter the credentials above to start reading the data from the IoT platform. Then click on _Update_ and _Done_.
 
 <img src="/images/iot2.png" width="40%" height="40%">
 
