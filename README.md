@@ -331,6 +331,14 @@ This flow gets weather information from Open Weather Map API. The location comes
 We need to edit the yellow Open Weather Map node and add the API key. 
 
     API KEY: 3a1ac87a062142df79f4177302bd7ab9
+    
+Now connect the grey link node coming from the Switch node with the grey link node starting the weather flow. To do that double click on the grey link node:
+
+<img src="/images/node2.png" width="10%" height="10%">
+
+Connect weather-In with weather-Out and click on _Done_.
+
+<img src="/images/weather.png" width="50%" height="50%">
 
 Click on _Deploy_ and go to the UI to check the changes! Now your UI should look like this:
 
