@@ -159,16 +159,11 @@ Enter the credentials above to start reading the data from the IoT platform. The
 
 <img src="/images/iot2.png" width="40%" height="40%">
 
-If you want you can add a database node to store the sensor data in a database. This will give you the possibility to analyse data later and even predict when you need to turn off the heat during spring. 
-
-To do this drag and drop the node **Cloudant out** located in the node pallette under storage. 
-<img src="/images/node1.png" width="10%" height="10%">
-
-Connect the node like this:
+To save data into a database double click on blue Environment node. 
 
 <img src="/images/flow25.png" width="60%" height="60%">
 
-Double click on the node and select your Cloudant service from the drop-down menu. Then click _Done_.
+The service will automatically connect with your database, included in the Node-RED starter kit, and the sensor data will be stored in a Cloudant database. Then click _Done_.
 
 <img src="/images/db0.png" width="40%" height="40%">
 
