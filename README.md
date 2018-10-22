@@ -18,7 +18,7 @@ In this guide:
   ## Introduction 
 
 This lab was created for Smart Homes Mimmitkoodaa workshop fall 2018. The idea is to show how to create a smart home application that uses artificial intelligence and connects with external APIs. 
-Video tutorial will be available December 2018.
+Video tutorial, including simulated data, will be available December 2018.
 
 **IBM Cloud** is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS). A full-stack cloud platform with over 170 products and services covering data, serverless, containers, AI, IoT and blockchain. https://www.ibm.com/cloud/
 
@@ -279,12 +279,6 @@ Double click on the conversation node to edit the node with your own credentials
 Add your username, password and workspace id and click Done.
 
 <img src="/images/WA12.png" width="40%" height="40%">
-
-Edit also the cloudant nodes. Cloudant is a NoSQL database where we are always storing the latest temperature value. 
-Click on the blue node named "Retrieve documents" and select your Cloudant service. 
-Do the same in the other cloudant node named "latest". 
-
-<img src="/images/db1.png" width="50%" height="50%">
 
 Finally we need to confirm that the blue IoT node is reading the data correctly. Double click on the blue IBM IoT node and click on the pen icon. If you see the credentials all should work, if the credentials are missing add the API key and API token provided previously in this lab. 
 
