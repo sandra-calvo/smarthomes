@@ -91,7 +91,6 @@ When using Node-RED we build our apps using this graphical editor interface to w
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
       - node-red-dashboard
-      - node-red-node-base64
 
 In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
 
@@ -111,7 +110,7 @@ This will prompt a window to confirm the installation. Click on install and wait
 
 After few seconds you will see the new nodes in your Node-RED palette.
 
-**Remember** to repeat this process to install the other packages.
+Repeat this process to install other packages.
 
 # PHASE 2
 ## Visualize your data
@@ -142,13 +141,13 @@ Paste the text you copied from the file.
 This flow reads sensor data from the Watson IoT Platform and creates a visualization in your application's user interface. 
 It should look like this:
 
-<img src="/images/flow23.png" width="70%" height="70%">
+<img src="/images/flow23.png" width="80%" height="80%">
 
-<img src="/images/flow24.png" width="70%" height="70%">
+<img src="/images/flow24.png" width="60%" height="60%">
 
 You will need to do some editing. Double click on the blue IBM Iot node and click on the pen icon. 
 
-<img src="/images/iot1.png" width="50%" height="50%">
+<img src="/images/iot1.png" width="40%" height="40%">
 
 The sensors are pre-configured to send data to Watson IoT platform. At this moment all sensors send data to a service created by me (Sandra). Here the credentials to read the data coming from the sensors:
 
@@ -157,20 +156,20 @@ The sensors are pre-configured to send data to Watson IoT platform. At this mome
 
 Enter the credentials above to start reading the data from the IoT platform. Then click on _Update_.
 
-<img src="/images/iot2.png" width="50%" height="50%">
+<img src="/images/iot2.png" width="40%" height="40%">
 
 If you want you can add a database node to store the sensor data in a database. This will give you the possibility to analyse data later and even predict when you need to turn off the heat during spring. 
 
 To do this drag and drop the node **Cloudant out** located in the node pallette under storage. 
-<img src="/images/node1.png" width="20%" height="20%">
+<img src="/images/node1.png" width="10%" height="10%">
 
 Connect the node like this:
 
-<img src="/images/flow25.png" width="70%" height="70%">
+<img src="/images/flow25.png" width="60%" height="60%">
 
 Double click on the node and select your Cloudant service from the dropdown menu. Then click _Done_.
 
-<img src="/images/db0.png" width="70%" height="70%">
+<img src="/images/db0.png" width="40%" height="40%">
 
 Deploy your application changes from the **Deploy** button on the top right side of the screen. 
 
