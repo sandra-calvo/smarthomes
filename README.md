@@ -46,22 +46,22 @@ Thingsee **PRESENCE** is a wireless IoT sensor for measuring people presence thr
 
 ### Step 1. Create a Node-RED application
 
-**Node-RED** is a visual tool for wiring the internet of things - connecting hardware devices, APIs and online services in a new and interesting way. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single-click.
+**Node-RED** is a visual tool for wiring the internet of things - connecting hardware devices, APIs and online services in a new and interesting way. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single click.
 
 In a browser navigate to https://bluemix.net
-Select '_LOG IN_' then enter your log in information and press 'SIGN IN'.  You should see your dashboard. 
+Select '_LOG IN_' then enter your login information and press 'SIGN IN'.  You should see your dashboard. 
 Select the '_CATALOG_' view.
 ![](/images/App1.png?raw=true)
 Locate the Node-RED starter service, under Starter Kit, and click on it. 
 
 <img src="/images/App2.png" width="30%" height="30%">
 
-Enter a name for your application, for example: *mysmarthome* (host will automatically be completed). The host name must be unique on IBM Cloud, so please if you use the example name add your initials or a number. Be creative and try to make a unique name then click '_CREATE_'. 
+Enter a name for your application, for example: *mysmarthome* (host will automatically be completed). The hostname must be unique on IBM Cloud, so please if you use the example name add your initials or a number. Be creative and try to make a unique name then click '_CREATE_'. 
 
 <img src="/images/App3.png" width="100%" height="100%">
  
 Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
-The application will be ready in a couple of minutes. If you want to check the progeress click on the  _LOGS_  icon on the left side menu. Go back to _Overview_ tab to see your app dashboard.
+The application will be ready in a couple of minutes. If you want to check the progress click on the  _LOGS_  icon on the left side menu. Go back to _Overview_ tab to see your app dashboard.
 
 <img src="/images/App3b.png" width="20%" height="20%">
 
@@ -131,7 +131,7 @@ Use the keyboard shortcuts to select all content and copy it.
     <kbd>Ctrl</kbd>+<kbd>A</kbd> -->
     <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
-Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
+Import the flow by simply clicking on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
 
 <img src="/images/App27.png" width="50%" height="50%">
 
@@ -146,7 +146,7 @@ It should look like this:
 
 <img src="/images/flow24.png" width="60%" height="60%">
 
-You will need to do some editing. Double click on the blue IBM Iot node and click on the pen icon. 
+You will need to do some editing. Double click on the blue IBM IoT node and click on the pen icon. 
 
 <img src="/images/iot1.png" width="40%" height="40%">
 
@@ -168,7 +168,7 @@ Connect the node like this:
 
 <img src="/images/flow25.png" width="60%" height="60%">
 
-Double click on the node and select your Cloudant service from the dropdown menu. Then click _Done_.
+Double click on the node and select your Cloudant service from the drop-down menu. Then click _Done_.
 
 <img src="/images/db0.png" width="40%" height="40%">
 
@@ -176,7 +176,7 @@ Deploy your application changes from the **Deploy** button on the top right side
 
 Note that it is also possible to change the looks of your user interface in the dashboard tab. 
 
-### Step 4. Check your webapp UI! 
+### Step 4. Check your web app UI! 
 The dashboard nodes added an UI to our Node-RED application. 
 
 <img src="/images/webApp1.png" width="80%" height="80%">
@@ -184,7 +184,7 @@ The dashboard nodes added an UI to our Node-RED application.
 To access the UI go to:
 http://yourAppName.eu-gb.mybluemix.net/ui - UK
 
-Remember that if you are in US, Germany Sydney the addredd will look slightly different:
+Remember that if you are in US, Germany Sydney the address will look slightly different:
 http://yourAppName.mybluemix.net/ui - US South
 
 http://yourAppName.eu-de.mybluemix.net/ui - Germany
@@ -196,7 +196,7 @@ Now you can observe your Smart Home dashboard. :+1:
 
 
 # PHASE 3
-## Add AI powered chatbot to your application using Watson Assistant
+## Add AI-powered chatbot to your application using Watson Assistant
 
 In this phase we are going to add a chatbot to our application, powered by Watson Assistant. Through the chatbot you will be able to get information about the sensor data in your "Smart Home" environment. 
 
@@ -215,7 +215,7 @@ Once the service is created click on 'Launch tool' to access it.
 
 <img src="/images/WA3.png" width="60%" height="60%">
  
-Click on Log in with IBM ID and you will automatically access the service. It uses your IBM Cloud ID and password.
+Click on login with IBM ID and you will automatically access the service. It uses your IBM Cloud ID and password.
 
 <img src="/images/WA4.png" width="30%" height="30%">
 
@@ -240,7 +240,7 @@ When you import a workspace, you can choose to import only the intents and entit
 
 ### Step 7. Test your dialog
 As you make changes to your dialog, you can test it at any time to see how it responds to input.
-From the Dialog tab, click the conversation buble icon. In the chat panel, type some text and then press Enter.
+From the Dialog tab, click the conversation bubble icon. In the chat panel, type some text and then press Enter.
 Check the response to see if the dialog correctly interpreted your input and chose the right response. 
 
 The chat window indicates what intents and entities were recognized in the input. In the dialog editor pane, the currently active node is highlighted
@@ -268,7 +268,7 @@ Use the keyboard shortcuts to select all content and copy it.
     <kbd>Ctrl</kbd>+<kbd>A</kbd> -->
     <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
-Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. Import -> Clipboard. Paste the content.
+Import the flow by simply clicking on the 3 white lines on the top right corner of the Node-RED window. Import -> Clipboard. Paste the content.
 This is the flow we are importing:
 
 <img src="/images/flow21.png" width="100%" height="100%">
@@ -276,7 +276,7 @@ This is the flow we are importing:
 Time to do some editing! :smiley:
 
 Double click on the conversation node to edit the node with your own credentials saved in the previous step. 
-Add your username, passworkd and workspace id and click Done.
+Add your username, password and workspace id and click Done.
 
 <img src="/images/WA12.png" width="40%" height="40%">
 
@@ -306,7 +306,7 @@ http://yourAppName.eu-gb.mybluemix.net/ui - UK
 You can connect your application with any available API. In this case we are going to connect Watson Assistant to the weather data. This way our bot will be able to tell us the weather anywhere in the world. 
 
 Normally, I would use **Weather Company Data** service available on IBM Cloud. This service lets you integrate weather data from The Weather Company into your application. It has a free tier, but it is not available for Lite accounts. 
-If you have an ugraded account you can use the Weather Company service. Feel free to ask me for the code. :blush: 
+If you have an upgraded account you can use the Weather Company service. Feel free to ask me for the code. :blush: 
 
 For this lab we are using Open Weather Map data https://openweathermap.org/. 
 Note: An API key is required to use these nodes. You can register and obtain your own API key, or use the one available for this workshop. 
@@ -323,7 +323,7 @@ Use the keyboard shortcuts to select all content and copy it.
     <kbd>Ctrl</kbd>+<kbd>A</kbd> -->
     <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
-Import the flow to Node RED by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. 
+Import the flow to Node-RED by simply clicking on the 3 white lines on the top right corner of the Node-RED window. 
 Import -> Clipboard. Paste the content.
 This is the flow we are importing:
 
