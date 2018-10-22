@@ -251,6 +251,8 @@ Copy the credentials and save them for later.
 ### Step 9. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
+Go to the empty tab **Flow1**. 
+
 Copy the content of the **assistant_UI.json** file. Open the file URL. [Assistant UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/assistant_UI.json) 
 
 Use the keyboard shortcuts to select all content and copy it. 
