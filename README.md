@@ -121,7 +121,7 @@ In this section we will build a simple flow to connect with our sensor data and 
 
 Copy the content of the **visualization_UI.json** file. Open the file URL. [Visualization UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/visualization_UI.json) 
 
-Use the keyboard shortcuts to select all content and copy it. 
+Use the keyboard shortcuts to select all content and copy it.
     
   OSx
     <kbd>Cmd</kbd>+<kbd>A</kbd> -->
