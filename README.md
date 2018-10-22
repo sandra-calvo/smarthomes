@@ -8,7 +8,7 @@ In this guide:
   - [PHASE 2](#phase-2): Visualize your data
   - [PHASE 3](#phase-3): Add AI powered chatbot to your application using Watson Assistant 
   - [PHASE 4](#phase-4): Connect with external APIs using Weather Insights
-  - [PHASE 5](#phase-5): Include rules and actions based on sensor data
+
   
   
   #### Prerequisites
@@ -294,9 +294,6 @@ Once the service is created click on 'Launch tool' to access it.
 
 GET CREDENTIALS
 
-
-# PHASE 5
-## Include rules and actions based on sensor data
 
 
 
