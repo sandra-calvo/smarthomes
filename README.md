@@ -253,14 +253,24 @@ Use the keyboard shortcuts to select all content and copy it.
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. Import -> Clipboard. Paste the content.
 This is the flow we are importing:
 
-<img src="/images/flow2.png" width="100%" height="100%">
+<img src="/images/flow21.png" width="100%" height="100%">
+
+Time to do some editing! :smiley:
 
 Double click on the conversation node to edit the node with your own credentials saved in the previous step. 
 Add your username, passworkd and workspace id and click Done.
 
 <img src="/images/WA12.png" width="40%" height="40%">
 
-Click on the _Deploy_ button to save the changes in your application.
+Edit also the cloudant nodes. Cloudant is a NoSQL database where we are always storing the latest temperature value. 
+Click on the blue node named "Retrieve documents" and select your Cloudant service. 
+Do the same in the other cloudant node named "latest". 
+
+<img src="/images/db1.png" width="50%" height="50%">
+
+Finally we need to confirm that the blue IoT node is reading the data correctly. Double click on the blue IBM IoT node and click on the pen icon. If you see the credentials all should work, if the credentials are missing add the API key and API token provided previously in this lab. 
+
+Once you have edited all the nodes click on the _Deploy_ button to save the changes in your application.
 
 ### Step 10. Check the final result! 
 Go back to the UI and talk with your bot! 
