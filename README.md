@@ -140,7 +140,12 @@ Paste the text you copied from the file.
 <img src="/images/App28.png" width="50%" height="50%">
 
 This flow reads sensor data from the Watson IoT Platform and creates a visualization in your application's user interface. 
- 
+It should look like this:
+
+<img src="/images/flow23.png" width="70%" height="70%">
+
+<img src="/images/flow24.png" width="70%" height="70%">
+
 You will need to do some editing. Double click on the blue IBM Iot node and click on the pen icon. 
 
 <img src="/images/iot1.png" width="50%" height="50%">
@@ -153,6 +158,19 @@ The sensors are pre-configured to send data to Watson IoT platform. At this mome
 Enter the credentials above to start reading the data from the IoT platform. Then click on _Update_.
 
 <img src="/images/iot2.png" width="50%" height="50%">
+
+If you want you can add a database node to store the sensor data in a database. This will give you the possibility to analyse data later and even predict when you need to turn off the heat during spring. 
+
+To do this drag and drop the node **Cloudant out** located in the node pallette under storage. 
+<img src="/images/node1.png" width="20%" height="20%">
+
+Connect the node like this:
+
+<img src="/images/flow25.png" width="70%" height="70%">
+
+Double click on the node and select your Cloudant service from the dropdown menu. Then click _Done_.
+
+<img src="/images/db0.png" width="70%" height="70%">
 
 Deploy your application changes from the **Deploy** button on the top right side of the screen. 
 
