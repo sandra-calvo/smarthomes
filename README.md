@@ -272,7 +272,7 @@ This is the flow we are importing:
 
 Time to do some editing! :smiley:
 
-Double click on the conversation node to edit the node with your own credentials saved in the previous step. 
+Double click on the assistant node to edit the node with your own credentials saved in the previous step. 
 Add your username, password and workspace id and click Done.
 
 <img src="/images/WA12.png" width="40%" height="40%">
