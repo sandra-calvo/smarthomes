@@ -283,6 +283,10 @@ Once you have edited all the nodes click on the _Deploy_ button to save the chan
 
 ### Step 10. Check the final result! 
 Go back to the UI and talk with your bot! 
+Change the tab by clicking on the three lines and going to the Assistant tab.
+
+<img src="/images/tab.png" width="10%" height="10%">
+
 You can ask the bot about IoT and even ask what is the temperature in the room. The bot is connected to the sensors in your "Smart Home" environment. 
 
 Remember, to go back to your web app (in UK region)
