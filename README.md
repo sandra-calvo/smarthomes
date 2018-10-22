@@ -169,7 +169,7 @@ The service will automatically connect with your database, included in the Node-
 
 Deploy your application changes from the **Deploy** button on the top right side of the screen. 
 
-Note that it is also possible to change the looks of your user interface in the dashboard tab. 
+Note that it is also possible to change the looks of your user interface in the dashboard tab. Ask for help if you want to change the colors of your app. :blush:
 
 ### Step 4. Check your web app UI! 
 The dashboard nodes added an UI to our Node-RED application. 
