@@ -91,6 +91,7 @@ When using Node-RED we build our apps using this graphical editor interface to w
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
       - node-red-dashboard
+      - node-red-node-openweathermap
 
 In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
 
@@ -110,7 +111,7 @@ This will prompt a window to confirm the installation. Click on install and wait
 
 After few seconds you will see the new nodes in your Node-RED palette.
 
-Repeat this process to install other packages.
+**Remember to repeat this process to install node-red-node-openweathermap package.**
 
 # PHASE 2
 ## Visualize your data
@@ -302,27 +303,43 @@ http://yourAppName.eu-gb.mybluemix.net/ui - UK
 # PHASE 4
 ## Connect with external APIs like Weather
 
-You can connect your application with any available API. In this case we are going to connect Watson Assistant to the Weather Company data. This way our bot will be able to tell us the weather anywhere in the world. 
+You can connect your application with any available API. In this case we are going to connect Watson Assistant to the weather data. This way our bot will be able to tell us the weather anywhere in the world. 
 
-**Weather Company Data** service lets you integrate weather data from The Weather Company into your application. You can retrieve weather data for an area specified by a geolocation. The data allows you to create applications that solve real business problems where weather has a significant impact on the outcome.
+Normally, I would use **Weather Company Data** service available on IBM Cloud. This service lets you integrate weather data from The Weather Company into your application. It has a free tier, but it is not available for Lite accounts. 
+If you have an ugraded account you can use the Weather Company service. Feel free to ask me for the code. :blush: 
 
-Go to your IBM Cloud account and open the catalog. Look for Weather Company service and click on it.
+For this lab we are using Open Weather Map data https://openweathermap.org/. 
+Note: An API key is required to use these nodes. You can register and obtain your own API key, or use the one available for this workshop. 
 
-<img src="/images/Weather1.png" width="50%" height="50%">
+Copy the content of the **weather_UI.json** file. Open the file URL. [Weather UI code](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/weather_UI.json) 
 
-Choose the region and space where you want the service to be created. Your organization will be filled by default.
-There is a free plan that allows you to call the service 10.000 times per account. 
-You don't need to change the name if you don't want to, just click on 'Create'. 
-![](/images/Weather2.png?raw=true)
+Use the keyboard shortcuts to select all content and copy it. 
+    
+  OSx
+    <kbd>Cmd</kbd>+<kbd>A</kbd> -->
+    <kbd>Cmd</kbd>+<kbd>C</kbd>
 
-Once the service is created click on 'Launch tool' to access it. 
+  Windows
+    <kbd>Ctrl</kbd>+<kbd>A</kbd> -->
+    <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
-<img src="/images/Weather3.png" width="60%" height="60%">
+Import the flow to Node RED by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. 
+Import -> Clipboard. Paste the content.
+This is the flow we are importing:
 
-GET CREDENTIALS
+<img src="/images/flow27.png" width="70%" height="70%">
 
+This flow gets weather information from Open Weather Map API. The location comes through the chatbot from the user. Then the city name goes to Google Maps API to get the coordinates and longitude & latitude are sent to the weather service. Finally it is visualized in the UI. 
 
+**Remember** Connect the node "Weather response" with the node "Bot response".
 
+We need to edit the yellow Open Weather Map node and add the API key. 
+
+    API KEY: 3a1ac87a062142df79f4177302bd7ab9
+
+Click on _Deploy_ and go to the UI to check the changes! Now your UI should look like this:
+
+<img src="/images/webApp3.png" width="70%" height="70%">
 
 **Congrats!** You finished the lab. :clap:
 Here, take a :lollipop:. You deserve it!! 
