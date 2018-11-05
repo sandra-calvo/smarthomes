@@ -169,7 +169,6 @@ The service will automatically connect with your database, included in the Node-
 
 Deploy your application changes from the **Deploy** button on the top right side of the screen. 
 
-Note that it is also possible to change the looks of your user interface in the dashboard tab. Ask for help if you want to change the colors of your app. :blush:
 
 ### Step 4. Check your web app UI! 
 The dashboard nodes added an UI to our Node-RED application. 
@@ -185,6 +184,14 @@ http://yourAppName.mybluemix.net/ui - US South
 http://yourAppName.eu-de.mybluemix.net/ui - Germany
 
 http://yourAppName.au-syd.mybluemix.net/ui - Sydney
+
+**COLOR**
+Note that it is also possible to change the looks of your user interface in the dashboard tab. :blush:
+In Node-RED go to the Dashboard tab in the left side menu to change the theme of your user interface. 
+
+<img src="/images/color.png" width="40%" height="40%">
+
+Click on the color and select the main color for your web app. You can change the Light, dark or even custom template to customize the colors of your app. 
 
 **Fantastic! Your web app is ready.** 
 Now you can observe your Smart Home dashboard. :+1:
