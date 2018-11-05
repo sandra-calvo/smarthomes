@@ -285,7 +285,10 @@ Add your username, password and workspace id and click Done.
 
 <img src="/images/WA12.png" width="40%" height="40%">
 
-Finally we need to confirm that the blue IoT node is reading the data correctly. Double click on the blue IBM IoT node and click on the pen icon. If you see the credentials all should work, if the credentials are missing add the API key and API token provided previously in this lab. 
+Finally we need to confirm that the blue IoT node is reading the data correctly. Double click on the blue IBM IoT node and click on the pen icon. If you see the credentials all should work, if the credentials are missing add the API key and API token shown below.  
+
+    API KEY: a-jwql3u-qmhoi8sdzy
+    API TOKEN: OSxT5QVJYxItsV*K4y
 
 Once you have edited all the nodes click on the _Deploy_ button to save the changes in your application.
 
@@ -327,7 +330,7 @@ Use the keyboard shortcuts to select all content and copy it.
     <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
 Import the flow to Node-RED by simply clicking on the 3 white lines on the top right corner of the Node-RED window. 
-Import -> Clipboard. Paste the content.
+Import -> Clipboard. **Paste the content to the Flow 2 tab.**
 This is the flow we are importing:
 
 <img src="/images/flow27.png" width="70%" height="70%">
@@ -335,6 +338,8 @@ This is the flow we are importing:
 This flow gets weather information from Open Weather Map API. The location comes through the chatbot from the user. Then the city name goes to Google Maps API to get the coordinates and longitude & latitude are sent to the weather service. Finally it is visualized in the UI. 
 
 **Remember** Connect the node "Weather response" with the node "Bot response".
+
+<img src="/images/completeflow.png" width="80%" height="80%">
 
 We need to edit the yellow Open Weather Map node and add the API key. 
 
