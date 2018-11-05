@@ -353,6 +353,16 @@ Connect weather-In with weather-Out and click on _Done_.
 
 <img src="/images/weather.png" width="50%" height="50%">
 
+Lastly we need to edit the location of the weather widget in our user interface. 
+Click on the dashboard tab in the left side menu and you will see there is two Assistant tab. One contains the bot and last value visualization, created in the last phase, and the other contains the weather.
+
+<img src="/images/widget1.png" width="50%" height="50%">
+
+Drag the weather widget to the Assistant above so it's part of the same tab than the other widgets. It should now look like this:
+
+<img src="/images/widget2.png" width="50%" height="50%">
+
+
 Click on _Deploy_ and go to the UI to check the changes! Now your UI should look like this:
 
 <img src="/images/webApp3.png" width="70%" height="70%">
