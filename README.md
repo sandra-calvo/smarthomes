@@ -217,10 +217,6 @@ You don't need to change the name if you don't want to, just click on 'Create'.
 Once the service is created click on 'Launch tool' to access it. 
 
 <img src="/images/WA3.png" width="60%" height="60%">
- 
-Click on login with IBM ID and you will automatically access the service. It uses your IBM Cloud ID and password.
-
-<img src="/images/WA4.png" width="30%" height="30%">
 
 In the home tab you have videos and tutorials on how to get started building dialoges. Feel free to explore them. 
 Let's move to the Workspaces tab.
@@ -284,7 +280,7 @@ This is the flow we are importing:
 
 Time to do some editing! :smiley:
 
-Double click on the assistant node to edit the node with your own credentials saved in the previous step. 
+Double click on the blue assistant node to edit the node with your own credentials saved in the previous step. 
 Add your username, password and workspace id and click Done.
 
 <img src="/images/WA12.png" width="40%" height="40%">
