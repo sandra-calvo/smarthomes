@@ -186,6 +186,7 @@ http://yourAppName.eu-de.mybluemix.net/ui - Germany
 http://yourAppName.au-syd.mybluemix.net/ui - Sydney
 
 **COLOR**
+
 Note that it is also possible to change the looks of your user interface in the dashboard tab. :blush:
 In Node-RED go to the Dashboard tab in the left side menu to change the theme of your user interface. 
 
