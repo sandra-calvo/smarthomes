@@ -187,10 +187,10 @@ http://yourAppName.au-syd.mybluemix.net/ui - Sydney
 
 **COLOR**
 
-Note that it is also possible to change the looks of your user interface in the dashboard tab. :blush:
+It is also possible to change the looks of your user interface in the dashboard tab. :blush:
 In Node-RED go to the Dashboard tab in the left side menu to change the theme of your user interface. 
 
-<img src="/images/color.png" width="40%" height="40%">
+<img src="/images/color1.png" width="40%" height="40%">
 
 Click on the color and select the main color for your web app. You can change the Light, dark or even custom template to customize the colors of your app. 
 
