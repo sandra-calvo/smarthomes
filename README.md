@@ -229,9 +229,7 @@ The natural-language processing happens inside a workspace, which is a container
 You can create a workspace and start from scratch or import an existing conversation. 
 Download assistant conversation from here: https://ibm.box.com/v/assistantUI 
 
-Or you can import download the **assistant_conversation.json** file located [Assistant Conversation](https://raw.githubusercontent.com/sandra-calvo/smarthomes/master/assistant_conversation.json). Save as a .json file and import to Watson Assistant. 
-
-Click on the import icon shown in the image below. 
+Click on the import icon shown in the image below and select the file you just downloaded (assistantUI.json).
 
 <img src="/images/WA6.png" width="30%" height="30%">
 
