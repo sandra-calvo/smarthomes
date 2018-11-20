@@ -219,23 +219,23 @@ Once the service is created click on 'Launch tool' to access it.
 <img src="/images/WA3.png" width="60%" height="60%">
 
 In the home tab you have videos and tutorials on how to get started building dialoges. Feel free to explore them. 
-Let's move to the Workspaces tab.
+Let's move to the Skills tab.
 
-<img src="/images/WA5.png" width="50%" height="50%">
+<img src="/images/WA5b.png" width="50%" height="50%">
  
 ### Step 6. Import a workspace
-The natural-language processing happens inside a workspace, which is a container for all of the artifacts that define the conversation flow for an application.
+The natural-language processing happens inside a skill, which is a container for all of the artifacts that define the conversation flow for an application.
 
-You can create a workspace and start from scratch or import an existing conversation. 
+You can create a new skill and start from scratch or import an existing conversation. 
 Download assistant conversation from here: https://ibm.box.com/v/assistantUI 
 
-Click on the import icon shown in the image below and select the file you just downloaded (assistant_conversation.json).
+Click on the 'Create new' button and then click on the import skill tab.
 
-<img src="/images/WA6.png" width="30%" height="30%">
+<img src="/images/WA6b.png" width="30%" height="30%">
 
-When you import a workspace, you can choose to import only the intents and entities, which can be useful if you want to build a new dialog using the same training data. In this case we will import everything.
+When you import a skill, you can choose to import only the intents and entities, which can be useful if you want to build a new dialog using the same training data. In this case we will import everything. Click on 'Choose JSON file ' button and find the file you just downloaded. Then click on Import.
 
-<img src="/images/WA7.png" width="50%" height="50%">
+<img src="/images/WA7b.png" width="50%" height="50%">
 
 ### Step 7. Test your dialog
 As you make changes to your dialog, you can test it at any time to see how it responds to input.
