@@ -217,8 +217,11 @@ You don't need to change the name if you don't want to, just click on 'Create'.
 ### Step 6. Get Watson Assistant credentials 
 Since we will need your Watson Assistant credentials in the next step, this is a good moment to save them. Go to the Service Credentials tab in the left side menu. 
 
-Copy the credentials and save them for later.
-![](/images/WA9.png?raw=true)
+<img src="/images/WA9a.png" width="60%" height="60%">
+
+Copy the credentials and save them for later. You will need the API Key and the URL. 
+
+<img src="/images/WA9b.png" width="60%" height="60%">
 
 ### Step 7. Import a conversation
 Once the service is created click on 'Launch tool' to access it. 
@@ -279,8 +282,8 @@ This is the flow we are importing:
 
 Time to do some editing! :smiley:
 
-Double click on the blue assistant node to edit the node with your own credentials saved in the previous step. 
-Add your username, password and workspace id and click Done.
+Double click on the **blue** assistant node to edit the node with your own credentials saved in the previous step. 
+Add your API Key and to add the URL click on the 
 
 <img src="/images/WA12.png" width="40%" height="40%">
 
