@@ -210,10 +210,17 @@ Go to your IBM Cloud account and open the catalog. Look for Watson Assistant ser
 
 <img src="/images/WA1.png" width="50%" height="50%">
 
-Choose the region and space where you want the service to be created. Your organization will be filled by default.
+Choose the region and space where you want the service to be created. In new accounts it will automatically select your resource group, usually named as default. 
 You don't need to change the name if you don't want to, just click on 'Create'. 
 ![](/images/WA2.png?raw=true)
 
+### Step 6. Get Watson Assistant credentials 
+Since we will need your Watson Assistant credentials in the next step, this is a good moment to save them. Go to the Service Credentials tab in the left side menu. 
+
+Copy the credentials and save them for later.
+![](/images/WA9.png?raw=true)
+
+### Step 7. Import a conversation
 Once the service is created click on 'Launch tool' to access it. 
 
 <img src="/images/WA3.png" width="60%" height="60%">
@@ -223,7 +230,7 @@ Let's move to the Skills tab.
 
 <img src="/images/WA5b.png" width="50%" height="50%">
  
-### Step 6. Import a workspace
+
 The natural-language processing happens inside a skill, which is a container for all of the artifacts that define the conversation flow for an application.
 
 You can create a new skill and start from scratch or import an existing conversation. 
@@ -237,7 +244,7 @@ When you import a skill, you can choose to import only the intents and entities,
 
 <img src="/images/WA7b.png" width="50%" height="50%">
 
-### Step 7. Test your dialog
+### Step 8. Test your dialog
 As you make changes to your dialog, you can test it at any time to see how it responds to input.
 From the Dialog tab, click the conversation bubble icon. In the chat panel, type some text and then press Enter.
 Check the response to see if the dialog correctly interpreted your input and chose the right response. 
@@ -245,12 +252,6 @@ Check the response to see if the dialog correctly interpreted your input and cho
 The chat window indicates what intents and entities were recognized in the input. In the dialog editor pane, the currently active node is highlighted
 Feel free to create new intents for your bot.
 ![](/images/WA8.png?raw=true)
-
-### Step 8. Get Watson Assistant credentials 
-Since we will need your Watson Assistant credentials and your workspace ID in the next step, this is a good moment to save them. Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. 
-
-Copy the credentials and save them for later.
-![](/images/WA9.png?raw=true)
 
 ### Step 9. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
