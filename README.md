@@ -214,16 +214,7 @@ Choose the region and space where you want the service to be created. In new acc
 You don't need to change the name if you don't want to, just click on 'Create'. 
 ![](/images/WA2.png?raw=true)
 
-### Step 6. Get Watson Assistant credentials 
-Since we will need your Watson Assistant credentials in the next step, this is a good moment to save them. Go to the Service Credentials tab in the left side menu. 
-
-<img src="/images/WA9a.png" width="60%" height="60%">
-
-Copy the credentials and save them for later. You will need the API Key and the URL. 
-
-<img src="/images/WA9b.png" width="60%" height="60%">
-
-### Step 7. Import a conversation
+### Step 6. Import a conversation
 Once the service is created click on 'Launch tool' to access it. 
 
 <img src="/images/WA3.png" width="60%" height="60%">
@@ -247,7 +238,7 @@ When you import a skill, you can choose to import only the intents and entities,
 
 <img src="/images/WA7b.png" width="50%" height="50%">
 
-### Step 8. Test your dialog
+### Step 7. Test your dialog
 As you make changes to your dialog, you can test it at any time to see how it responds to input.
 From the Dialog tab, click the conversation bubble icon. In the chat panel, type some text and then press Enter.
 Check the response to see if the dialog correctly interpreted your input and chose the right response. 
@@ -255,6 +246,20 @@ Check the response to see if the dialog correctly interpreted your input and cho
 The chat window indicates what intents and entities were recognized in the input. In the dialog editor pane, the currently active node is highlighted
 Feel free to create new intents for your bot.
 ![](/images/WA8.png?raw=true)
+
+### Step 8. Get Watson Assistant credentials 
+Once you have tested the dialoge, it's time to collect the credentials to take them to our Node-RED application. 
+Click on the Skills name and go back to the Skills overview. 
+
+<img src="/images/WA-1.png" width="60%" height="60%">
+
+Click on the 3 dots in your IoT-Assistant to open a menu and then click on View API details. 
+
+<img src="/images/WA-2.png" width="60%" height="60%">
+
+Copy the credentials and save them for later. You will need the Workspace ID (skill), username ('apikey') and password. 
+
+<img src="/images/WA-3.png" width="60%" height="60%">
 
 ### Step 9. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
@@ -283,7 +288,7 @@ This is the flow we are importing:
 Time to do some editing! :smiley:
 
 Double click on the **blue** assistant node to edit the node with your own credentials saved in the previous step. 
-Add your API Key and to add the URL click on the 
+Add your username, password and workspace ID.  
 
 <img src="/images/WA12.png" width="40%" height="40%">
 
