@@ -251,11 +251,11 @@ Feel free to create new intents for your bot.
 Once you have tested the dialoge, it's time to collect the credentials to take them to our Node-RED application. 
 Click on the Skills name and go back to the Skills overview. 
 
-<img src="/images/WA-1.png" width="60%" height="60%">
+<img src="/images/WA-1.png" width="40%" height="40%">
 
 Click on the 3 dots in your IoT-Assistant to open a menu and then click on View API details. 
 
-<img src="/images/WA-2.png" width="60%" height="60%">
+<img src="/images/WA-2.png" width="40%" height="40%">
 
 Copy the credentials and save them for later. You will need the Workspace ID (skill), username ('apikey') and password. 
 
